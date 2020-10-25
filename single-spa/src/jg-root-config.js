@@ -20,7 +20,7 @@ registerApplication({
   name: "@jg/react-multiple",
   app: () =>
     System.import("@jg/react-multiple"),
-  activeWhen: (location) => location.pathname === "/react-multiple",
+  activeWhen: ["/react-multiple"],
 });
 
 
