@@ -13,7 +13,9 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.5/lib/system/single-spa.min.js"
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.5.5/lib/system/single-spa.min.js",
+        "react": "https://unpkg.com/react@16/umd/react.production.min.js",
+        "react-dom": "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"
       }
     }
   </script>
@@ -23,7 +25,8 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "@jg/root-config": "//localhost:9000/jg-root-config.js"
+        "@jg/root-config": "//localhost:9000/jg-root-config.js",
+        "@jg/react-single": "//localhost:8500/jg-react-single.js"
       }
     }
   </script>
